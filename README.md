@@ -32,6 +32,7 @@ sh executeSearch.sh find forks weekly search repositories NA
 
 All data is sent and received as JSON. Below is the response screenshot 
 ![response](https://cloud.githubusercontent.com/assets/7903007/17598067/c7abcaf4-5fc6-11e6-8f7a-9bec537194d9.png)
+
 Similarly, as described tabular summary, you can easily modify your search.
 
 =>To find issues assigned to your idea: 
@@ -45,6 +46,7 @@ $ sh executeSearch.sh newRepo NA NA org_domain repo_name true
 ```
 #### Future Improvements
 Currenly, Idea Innovation portal supports three major operation that facilitates managers and employees to creating new idea, searching best ideas based and find issues in idea. This can be further enhanced by:
+
 1.	Advanced search criteria based on text match can be implemented.
 2.	Notification feature can be added in case when new repository in created to indicate new idea posted or when new issue is assigned on suggested idea.
 
